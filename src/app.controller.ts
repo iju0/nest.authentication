@@ -19,9 +19,4 @@ export class AppController {
   getProfile(@Request() req) {
     return req.user;
   }
-
-  @Get('profile2')
-  getProfile2(@Request() req) {
-    return req.user;
-  }
 }
